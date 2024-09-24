@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files/OpenSSL-Win64/include",
+                "I:/krsip/include",
+                "I:/krsip/src"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "cStandard": "c11"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files/OpenSSL-Win64/include"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
+
